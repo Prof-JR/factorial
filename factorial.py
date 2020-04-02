@@ -3,4 +3,4 @@ def factorial(n: int) -> int:
     if n == 1:
         return 1
     else:
-        return n * 1  # this might not be right
+        return n * factorial(n - 1)
